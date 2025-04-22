@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Futura-Extra-Bold';
+    src: url('./font/futura-extra-bold.otf');
+}
+
+@font-face {
+    font-family: 'Futura-Medium';
+    src: url('./font/futura-medium.ttf');
+}
+
+body{
+    background-color: #DCD3CE;
+}
+
+.header-logo-text{
+    font-family: 'Futura-Extra-Bold', sans-serif;
+    text-transform: uppercase;
+    color: #b51e14;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.container img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.header-container img{
+    width: 7.5rem;
+}
+
+.text-container{
+    text-align: center;
+    margin-top: 16px;
+}
+
+.text-container p{
+    font-family: 'Futura-Medium', sans-serif;
+    line-height: 1.5;
+}
+
+.main-text{
+    text-transform: uppercase;
+    font-family: 'Futura-Extra-Bold', sans-serif;
+}
